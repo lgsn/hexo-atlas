@@ -1,13 +1,13 @@
 {
   "name": "hexo-atlas",
-  "version": "1.0.0",
+  "version": "1.0.01",
   "description": "图集插件",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lgsn/lgsn-ui"
+    "url": "git+https://github.com/lgsn/hexo-atlas"
   },
-  "homepage": "https://github.com/lgsn/lgsn-ui",
+  "homepage": "https://github.com/lgsn/hexo-atlas",
   "author": "lgsn",
   "license": "MIT"
 }
