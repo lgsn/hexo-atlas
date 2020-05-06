@@ -1,0 +1,21 @@
+<div class="atlas">
+    <div class="atlas-content">
+        <% page.posts.forEach(function (v) {%>
+            <div class="atlas-content-item">
+                <img src="/photo/<%= v %>"/>
+                <p><%= theme.atlas_title%></p>
+            </div>
+        <%})
+        %>
+    </div>
+    <nav class="page-nav atlas-page">
+        <%
+        var prev_text = theme.nav_text.page_prev;
+        var next_text = theme.nav_text.page_next
+        %>
+        <%- paginator({
+            prev_text: prev_text,
+            next_text: next_text
+        }) %>
+    </nav>
+</div>
