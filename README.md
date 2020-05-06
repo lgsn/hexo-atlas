@@ -25,14 +25,13 @@ atlas_file_name: '/source/photo'
 ```
 ## 模板文件 （必要）
 ### 并且您需要额外的下载 模板 文件 (不然启动会报错)
-ejs 文件
-[](https://github.com/lgsn/hexo-atlas/blob/master/module-file/atlas.ejs)
+[ejs文件](https://github.com/lgsn/hexo-atlas/blob/master/module-file/atlas.ejs)
 复制该ejs文件到您到  
 themes/ **您当前使用到主题文件名** /layout/  
 当然您也可以自己生成模板文件，模板文件默认名称为 atlas  
 
-[](https://github.com/lgsn/hexo-atlas/blob/master/module-file/atlas.styl)
-styl 文件  
+[styl文件](https://github.com/lgsn/hexo-atlas/blob/master/module-file/atlas.styl)
+
 复制该文件到您到:  
 themes/ **您当前使用到主题文件名** /source/css  
 
