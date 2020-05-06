@@ -1,7 +1,7 @@
-# lgsn-ui
+# hexo-atlas
 
-> 基于Vue2.0 组件库
-> [组件文档](https://lgsn.github.io/LGSN-UI-docs/index.html)
+> hexo 插件
+> 增加图集模块（可展示本地文件）
 
 ## 安装
 ```shell
@@ -27,12 +27,12 @@ atlas_file_name: '/source/photo'
 ### 并且您需要额外的下载 模板 文件 (不然启动会报错)
 ejs 文件
 [](https://github.com/lgsn/hexo-atlas/blob/master/module-file/atlas.ejs)
-复制该ejs文件到您到 themes/ *您当前使用到主题文件名* /layout/
+复制该ejs文件到您到 themes/ **您当前使用到主题文件名** /layout/
 当然您也可以自己生成模板文件，模板文件默认名称为 altas
 
 [](https://github.com/lgsn/hexo-atlas/blob/master/module-file/atlas.styl)
 styl 文件
-复制该文件到您到 themes/ *您当前使用到主题文件名* /source/css
+复制该文件到您到 themes/ **您当前使用到主题文件名** /source/css
 
-并且在该目录下到 （themes/ *您当前使用到主题文件名* /source/css/style.styl） style.styl中引入该文件
+并且在该目录下到 （themes/ **您当前使用到主题文件名** /source/css/style.styl） style.styl中引入该文件
 @import "atlas.styl"
