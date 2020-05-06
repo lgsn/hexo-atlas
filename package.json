@@ -1,0 +1,16 @@
+{
+  "name": "hexo-atlas",
+  "version": "1.0.0",
+  "description": "图集插件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lgsn/lgsn-ui"
+  },
+  "homepage": "https://github.com/lgsn/lgsn-ui",
+  "author": "lgsn",
+  "license": "MIT"
+}
