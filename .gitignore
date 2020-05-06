@@ -9,7 +9,6 @@ yarn-debug.log.*
 yarn-error.log.*
 lerna-debug.log.*
 examples/lgsn-ui
-lib
 .idea
 .vscode
 .npmrc
