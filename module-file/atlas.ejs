@@ -1,13 +1,13 @@
 <div class="atlas">
-    <div class="atlas-content">
+    <ul class="atlas-content">
         <% page.posts.forEach(function (v) {%>
-            <div class="atlas-content-item">
+            <li class="atlas-content-item">
                 <img src="/photo/<%= v.src %>"/>
                 <p><%= v.title%></p>
-            </div>
+            </li>
         <%})
         %>
-    </div>
+    </ul>
     <nav class="page-nav atlas-page">
         <%
         var prev_text = theme.nav_text.page_prev;

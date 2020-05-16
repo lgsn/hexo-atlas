@@ -1,6 +1,6 @@
 {
   "name": "hexo-atlas",
-  "version": "1.0.02",
+  "version": "1.0.03",
   "description": "图集插件",
   "main": "index.js",
   "repository": {

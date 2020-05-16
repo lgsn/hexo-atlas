@@ -14,12 +14,17 @@
   justify-content center;
   flex-wrap: wrap;
 }
-.atlas-content-item{
-  width:260px;
+.atlas-content-item {
+  width: 260px;
   margin: 0 20px 20px 0;
   background: #fff;
   border-radius: 4px;
   overflow: hidden;
+  cursor: pointer;
+  transition: .15s;
+}
+.atlas-content-item:hover{
+  box-shadow: 1px 1px 20px #000;
 }
 .atlas-content-item p{
   font-size:12px;
@@ -40,7 +45,7 @@
   display block;
   background-position: top left;
 }
-  .atlas-page{
-    width: 40%;
-    margin: 3rem auto;
-  }
+.atlas-page{
+  width: 40%;
+  margin: 3rem auto;
+}
