@@ -11,19 +11,22 @@ npm install hexo-atlas
 ## 使用方式 在主题配置文件 （_config.yml） 添加以下配置
 
 ```
-### 图集配置
+# 图集配置
 # 默认文案
-atlas_title: 'atlas'
+# 模板文件地址 (只包含ejs文件)
+atlas_module: 'atlas'
 # 分页文字
 atlas_nav_text:
   page_prev: 上一页
   page_next: 下一页
 # 每页图片数量
 atlas_page: 30
-# 存放图片文件名 (只支持本地)
-atlas_file_name: '/source/photo'
-# 模板文件地址 (只包含ejs文件)
-atlas_module: 'atlas'
+# 存放图片目录地址 (只支持本地)
+atlas_file_url: ''
+# 存放图片备注文件地址 (只支持本地)
+atlas_des_url: ''
+# 默认展示图片备注
+atlas_des_title: '馒头啊！！！'
 ```
 ## 模板文件 （必要）
 ### 并且您需要额外的下载 模板 文件 (不然启动会报错)

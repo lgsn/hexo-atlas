@@ -1,4 +1,8 @@
-/* global hexo */
+/**
+ * hexo-atals
+ * author lgsn95
+ * 2020/05/16 16:48
+ **/
 
 'use strict';
 if (!(hexo.config.photo && hexo.config.photo.enabled === false)) {

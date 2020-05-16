@@ -2,8 +2,8 @@
     <div class="atlas-content">
         <% page.posts.forEach(function (v) {%>
             <div class="atlas-content-item">
-                <img src="/photo/<%= v %>"/>
-                <p><%= theme.atlas_title%></p>
+                <img src="/photo/<%= v.src %>"/>
+                <p><%= v.title%></p>
             </div>
         <%})
         %>
