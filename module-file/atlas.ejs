@@ -2,7 +2,7 @@
     <ul class="atlas-content">
         <% page.posts.forEach(function (v) {%>
             <li class="atlas-content-item">
-                <img src="/photo/<%= v.src %>"/>
+                <img src="<%= v.src %>"/>
                 <p><%= v.title%></p>
             </li>
         <%})
